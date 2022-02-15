@@ -14,9 +14,6 @@ from nltk.stem import SnowballStemmer
 from nltk.stem.wordnet import WordNetLemmatizer
 import pandas as pd
 
-# data filename
-filename = 'Musical_instruments_reviews.csv'
-
 
 # ## Functions
 
@@ -62,6 +59,8 @@ def create_output(tokens, reduced_tokens):
 
 # In[3]:
 
+# data filename
+filename = 'Musical_instruments_reviews.csv'
 
 # load summary column of amazon dataset
 data = get_data(filename,['summary'])
