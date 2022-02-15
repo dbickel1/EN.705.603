@@ -8,6 +8,7 @@
 
 # packages
 import nltk
+nltk.download()
 from nltk.stem.porter import PorterStemmer
 from nltk.stem.lancaster import LancasterStemmer
 from nltk.stem import SnowballStemmer
